@@ -9,3 +9,20 @@ This project is from the Day 41 code along video from Udemy's 50 projects in 50 
 
 
 ### Things Learned
+
+* There is a ```:valid``` pseudo-class that targets any input or form element whose contents validate successfully.
+* There are "spinner" widgets in some input elements. They can be removed with ```-moz-appearance: textfield;``` in Firefox and
+
+ ```.code::-webkit-outer-spin-button,```
+
+```.code::-webkit-inner-spin-button {```
+
+  ```-webkit-appearance: none;```
+
+ ```margin: 0;```
+
+```}```
+
+in Chrome, Safari
+
+* ```.focus()``` method moves the cursor to the element.
