@@ -6,7 +6,7 @@ This project is from the Day 41 code along video from Udemy's 50 projects in 50 
 
 ### Overall Impression
 
-
+This project was to make the UI for an account verification code input box. We made an input box for each digit and shifted the cursor to the next box once a digit was entered. I've used this type of interface plenty of times, but hadn't really considered how it works (on the front end at least). It wasn't a lot of code, but I would not have thought to use the .focus() method to move to the next box as soon as a valid number was entered. I think the lesson here is not to take any part of the UI for granted, even if it isn't flashy.
 
 ### Things Learned
 
